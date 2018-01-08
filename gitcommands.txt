@@ -1,1 +1,7 @@
-Basic Git commands--
+Basic Git commands---
+
+1.Check who changed the file:
+$ git blame filename
+
+2. With --rebase , it runs git rebase instead of git merge
+$ git pull --rebase
