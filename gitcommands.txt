@@ -5,3 +5,9 @@ $ git blame filename
 
 2. With --rebase , it runs git rebase instead of git merge
 $ git pull --rebase
+
+git fetch [remotename]
+If you do fetch you'll need to merge any changes into your local branches. If you're on a branch that's tracking a remote branch on Github, then
+
+git pull
+will first do a fetch, and then merge in the tracked branch
